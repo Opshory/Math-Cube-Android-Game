@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_read_more"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/newback"
+    tools:context="com.shantokumarkuetgmail.mathcube.ReadMore">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Description:\n"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/textView" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/project"
+                android:layout_marginTop="24dp"
+                android:id="@+id/imageView1" />
+
+            <TextView
+                android:text="WINDOW 1:\n
+The first window\n
+***Started with a question:   ”For which rotation the grand total will be maximum?”\n
+***3 options will be provided:  ‘Left’, ‘Right’ and ‘Both Are Same’. Choosing any one option, one can continue the game and reach to the next stage.\n
+***The cube will have to be rotated in two ways (left or right according to 90 degree angle). Some mathematical problem will arise due to the rotation. Caution: before the rotation, user has to be careful and think over that how the cube will be look like after the rotation.\n
+***Solving the Mathematical problems  , total sum has to be answered to go to the next level.
+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/textView4" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/project1"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:text="WINDOW 2:\n
+In the second window\n
+***The result (sum) and the appearance of the cube after the particular rotation will be shown.\n
+***After it, new cube will appear and again one has to go through above rules.\n
+This is how each new cube has to be solved. And the game will work.\n
+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/textView5" />
+
+            <TextView
+                android:text="DEVELOPERS\n"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="50dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:id="@+id/textView"
+                android:layout_weight="0.05" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/opshory"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="24dp"
+                android:id="@+id/imageView3" />
+
+            <TextView
+                android:text="Zannati La Tasriba\nStudying CSE,KUET\nEmail: zannatmondol74@gmail.com"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/textView2" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/shanto"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/imageView4" />
+
+            <TextView
+                android:text="Shanto Kumar\nStudying CSE,KUET\nEmail: shantokumarkuet@gmail.com"
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="10dp"
+                android:layout_height="60dp"
+                android:id="@+id/textView3" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

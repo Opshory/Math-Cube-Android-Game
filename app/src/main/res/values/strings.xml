@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Math Cube</string>
+    <string name="title_activity_level">Level</string>
+</resources>
